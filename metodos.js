@@ -228,7 +228,7 @@ let questoes = [
 // Variáveis
 let lastQuestionIndex = questoes.length - 1;
 let runningQuestionIndex =  0;
-const questionTime = 3; // 3 segundos para responder
+const questionTime = 3; 
 const tamanhoBarra = 150;
 let count = 0;
 const progressoBarraTempo = tamanhoBarra / questionTime;
@@ -279,21 +279,18 @@ function counterRender() {
     timeGauge.style.width = count * progressoBarraTempo  + "px";
     count++;
   } else {
-    count = 0; // voltar para o 0
+    count = 0; 
     answerIsWrong();
     if (runningQuestionIndex < lastQuestionIndex) {
       runningQuestionIndex++;
       renderQuestion();
     } else {
-      // finaliza o quiz e mostra o resultado
       clearInterval(TIMER);
       scoreRender();
     }
   }
 }; // fim da counterRender
 
-
-// Respostas
 
 function checkAnswer(alternativa) {
   if(alternativa == questoes[runningQuestionIndex].resposta) {
@@ -313,12 +310,10 @@ function checkAnswer(alternativa) {
 }; // fim da checkAnswer
 
 
-// Resposta certa
 function answerIsCorrect() {
   document.getElementById(runningQuestionIndex).style.backgroundColor = "green";
 }
 
-// resposta errada
 function answerIsWrong() {
   document.getElementById(runningQuestionIndex).style.backgroundColor = "red";
 }
