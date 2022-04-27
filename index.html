@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="design.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Pokémon Quiz</title>
+</head>
+<body>
+  <header class="titulo-header">
+    <h1>PokéQuiz</h1>
+  </header>
+  <div id="container">
+    <h1 id="titulo-jogo">Acerte os nomes dos Pokémons</h1>
+    <div id="start"><br>JOGAR</div>
+    <div id="quiz" style="display: none">
+      <div id="question"><p>Qual é o Pokemon?</p></div>
+      <div id="imagem"></div>
+        <div id="choices">
+          <div class="choice" id="A" onclick="checkAnswer('A')">A</div>
+          <div class="choice" id="B" onclick="checkAnswer('B')">B</div>
+          <div class="choice" id="C" onclick="checkAnswer('C')">C</div>
+        </div>
+        <div id="timer">
+          <div id="counter"></div>
+          <div id="btnTime"></div>
+          <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>  
+    </div>
+    
+    <div id="scoreContainer" style="display: none">
+      
+    </div>
+    <div id="jogarNovamente" style="display: none">Jogar Novamente</div>
+
+  </div>
+ <footer class="footer">
+   <h1>Desenvolvido por <a href="https://www.linkedin.com/in/fernanda-santos-dantas/" target="_blank">Fernanda Dantas</a></h1>
+ </footer>
+<script src="metodos.js"></script>
+</body>
+</html>

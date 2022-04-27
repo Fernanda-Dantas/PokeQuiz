@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+  font-size: 20px;
+  font-family: monospace;
+  background-color: #3365A6;
+}
+
+.titulo-header h1 {
+  font-family: 'VT323', monospace;
+  text-align: center;
+  color: #FFCB05;
+  font-size: 60px;
+}
+
+#container{
+  margin : 20px auto;
+  background-color: #FFCB05;
+  height: 300px;
+  width : 700px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px;
+  position: relative;
+}
+
+#container h1 {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 15px;
+  text-align: center;
+  color: #307CBF;
+  font-size: 1.5rem;
+}
+
+#start{
+  font-size: 1.5em;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bolder;
+  word-break: break-all;
+  width:200px;
+  height:100px;
+  border : 5px solid #307CBF;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  left:250px;
+  top:90px;
+  color : #307CBF;
+}
+
+#start:hover{
+  background-color: white;
+}
+
+#imagem{
+  width : 200px;
+  height : 200px;
+  position: absolute;
+  left : 0px;
+  top : 0px;
+}
+
+#imagem img{
+  width : 200px;
+  height : 200px;
+  border-top-left-radius: 5px;
+}
+
+#question{
+  font-family: 'Poppins', sans-serif;
+  color : #307CBF;
+  width:500px;
+  font-weight: bold;
+  height : 125px;
+  position: absolute;
+  right:0;
+  top:0;
+}
+
+#question p{
+  margin : 0;
+  padding : 15px;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#choices{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  width : 480px;
+  position: absolute;
+  right : 0;
+  top : 125px;
+  padding : 10px
+}
+
+.choice{
+  display: inline-block;
+  width : 135px;
+  text-align: center;
+  border : 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding : 5px;
+}
+
+.choice:hover{
+  border : 2px solid grey;
+  font-weight: bold;
+}
+
+#timer{
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  height : 100px;
+  width : 200px;
+  bottom : 0px;
+  text-align: center;
+}
+
+#counter{
+  font-size: 3em;
+}
+
+#btnTime{
+  width : 150px;
+  height : 10px;
+  border-radius: 10px;
+  background-color: lightgray;
+  margin-left : 25px;
+}
+
+#timeGauge{
+  height : 10px;
+  border-radius: 10px;
+  background-color: #0511F2;
+  margin-top : -10px;
+  margin-left : 25px;
+}
+
+#progress{
+  width : 500px;
+  position: absolute;
+  bottom : 0px;
+  right : 0px;
+  padding:5px;
+  text-align: right;
+}
+
+.prog{
+  width : 25px;
+  height : 25px;
+  border: 1px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left : 5px;
+  margin-right : 5px;
+}
+
+#scoreContainer{
+  margin : 20px auto;
+  background-color: white;
+  opacity: 0.8;
+  height: 300px;
+  width : 700px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px;
+  position: relative;
+  display: none;
+}
+
+
+#scoreContainer p{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  display: block;
+  height: 300px;
+  width :700px;
+  top: 100px;
+  left:50px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000; 
+}
+
+#jogarNovamente{
+  font-size: 1.0em;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  word-break: break-all;
+  width:400px;
+  height:auto;
+  border : 3px solid #BF2424;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  left:250px;
+  top:250px;
+  color : #BF2424;
+}
+
+#jogarNovamente:hover{
+  border: 3px solid #FF1C1C;
+  color : #FF1C1C;
+  background-color: white;
+}
+
+.footer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  padding-top: 100px;
+  text-align: center;
+  color: #FFCB05;
+}
+
+.footer a {
+  color: #FFCB05;
+}
