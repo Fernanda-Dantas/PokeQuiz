@@ -3,6 +3,8 @@
  
  # Sobre
  
+ Acesse o site [aqui.](https://fernanda-dantas.github.io/PokeQuiz/)
+ 
  # PokéQuiz
  ![pokequiz_gif](https://user-images.githubusercontent.com/81118959/166250414-efa16540-81d0-413d-986a-918d12fba328.gif)
 
