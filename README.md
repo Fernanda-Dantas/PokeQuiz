@@ -1,5 +1,5 @@
 # PokeQuiz
- Quiz desenvolvido em Javascript puro com os personagens do Pokémon.
+ Quiz desenvolvido em Javascript puro sobre os personagens do Pokémon.
  
  # Sobre
  PokeQuiz é o meu primeiro projeto autoral onde utilizei alguns dos meus conhecimentos em Front-end.<br>
