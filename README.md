@@ -21,3 +21,4 @@
  # O que aprendi
  
  # Referências
+[Create a Multiple Choice Quiz App Using JavaScript | JavaScript Project For Beginners](https://www.youtube.com/watch?v=49pYIMygIcU&list=PLyMSASReZkctnJzy_TePcdrzLBQVqEhRv&index=6)
