@@ -2,7 +2,9 @@
  Quiz do Pokémon
  
  # Sobre
- 
+ PokeQuiz é o meu primeiro projeto autoral onde utilizei alguns dos meus conhecimentos em Front-end.<br>
+ O projeto é um Quiz onde você precisa escolher o nome correto dos Pokémons que aparecem na tela.<br> 
+ Ao final, você terá a sua porcentagem.<br>
  Acesse o site [aqui.](https://fernanda-dantas.github.io/PokeQuiz/)
  
  # PokéQuiz
